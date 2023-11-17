@@ -5,3 +5,5 @@
     - name: awx test
       debug:
         var: test1
+    - debug:
+        var: test2
