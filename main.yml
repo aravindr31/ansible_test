@@ -1,0 +1,7 @@
+---
+- name: Var test
+  hosts: localhost  
+  tasks:
+    - name: awx test
+      debug:
+        var: test1
