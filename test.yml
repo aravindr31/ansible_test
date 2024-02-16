@@ -1,0 +1,19 @@
+---
+- name: Redirect_test
+  hosts: localhost
+  ignore_errors: true
+  vars:
+    test: true
+
+  tasks:
+    - name: Print vars
+      debug: 
+        var: "{{ item }}"
+      loop:
+        - rule_name
+        - url_host
+        - copy_query_string
+        - redirect_url
+
+        
+
