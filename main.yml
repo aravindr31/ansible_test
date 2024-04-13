@@ -6,4 +6,4 @@
       debug:
         var: test1
     - debug:
-        var: {{ awx_user }}
+        var: awx_user
