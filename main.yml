@@ -4,4 +4,4 @@
   tasks:
     - name: awx test
     - debug:
-        var: awx_user
+        var: awx_user_name
