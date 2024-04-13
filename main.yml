@@ -3,5 +3,5 @@
   hosts: localhost  
   tasks:
     - name: awx test
-    - debug:
+      debug:
         var: awx_user_name
